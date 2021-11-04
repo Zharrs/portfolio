@@ -1,0 +1,68 @@
+@font-face {
+    font-family:'Montserrat';
+    src: url(Montserrat-Bold.ttf);
+}
+body
+{
+background: url(image/hero-bg.png) no-repeat rgba(0, 0, 0, .75);
+background-blend-mode: darken;
+background-size: cover;
+
+font-family: 'Montserrat',sans-serif;
+}
+.titre
+{
+    color:white;
+    flex-grow: 1;
+    padding-left: 200px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bloc_haut
+{
+    display: flex;
+    height: 0px;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 2;
+    font-weight: bold;
+    font-size: 11px;
+    padding-right: 220px;
+}
+
+.mid_bloc
+{
+    color: white;
+    font-size: 3em;
+    padding-left: 280px;
+    padding-top: 250px;
+    font-weight: bold;
+ }
+
+
+span{
+   color:rgb(208, 29, 61)
+}
+.Port
+{
+    width: 100px;
+   font-size: 15px;
+   color: rgb(208, 29, 61);
+   border: 2px solid rgb(208, 29, 61);
+   padding:  15px 40px;
+  
+   
+ }
+ ul
+ {
+    list-style: none;
+    display: flex;
+ }
+ ul li a
+ {
+     text-decoration: none;
+     color: white;
+     padding: 5px 20px;
+     font-size: 20px;
+ }
+
